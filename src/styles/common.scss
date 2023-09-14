@@ -1,0 +1,22 @@
+.common {
+    &__screen {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: auto;
+        scroll-behavior: smooth;
+
+        &__container {
+            width: 200vw;
+            height: 100%;
+            display: flex;
+            background-color: #7d7d7d;
+        }
+    }
+
+    &__container {
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+    }
+}
